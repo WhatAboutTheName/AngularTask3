@@ -1,0 +1,24 @@
+    
+<button (click)="start()">Star</button>
+<h1>Sum: {{sumStreamId}}</h1>
+<div class="all">
+  <div class="stream">
+    <h1>Stream1 </h1>
+    <ul>
+      <li *ngFor="let id of firstArr">{{id}}</li>
+    </ul>
+  </div>
+  <div class="stream">
+    <h1>Stream2 </h1>
+    <ul>
+      <li *ngFor="let id of secondArr">{{id}}</li>
+    </ul>
+  </div>
+  <div class="stream">
+    <h1>Stream3 </h1>
+    <ul>
+      <li *ngFor="let id of thirdArr">{{id}}</li>
+    </ul>
+  </div>
+</div>
+
